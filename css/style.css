@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+	font-family: roboto, sans-serif;
+}
+
+header {
+	width: vw;
+	height: 100px;
+	background-color: rgba(34, 34, 34, 1);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	flex-direction: row;
+	justify-content: space-between;
+	display: flex;
+	position: relative;
+	padding: 8px 15px;
+}
+
+.logo {
+	width: 234px;
+	height: 80px;
+	background-image: url(../img/Logo.png);
+	align-self: flex-start;
+	position: relative;
+}
+
+.menu {
+	align-self: flex-end;
+	width: 320px;
+	height: 80px;
+	position: relative;
+	text-align: right;
+	color: rgba(243, 243, 243, 1);
+}
+
+.menu ul li {
+	position: relative;
+	top:30px;
+	display: inline;
+	margin-right: 7px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: rgba(243, 243, 243, 1);
+}
+
+.contenedor-body {
+	background-color: #E5E5E5;
+	height: 400px;
+	padding-top: 25px;
+	position: relative;
+
+}
+
+.contenido {
+	margin: 0px auto;
+	height: 350px;
+	width: 985px;
+	position: relative;
+	flex-direction: row;
+	justify-content: space-between;
+	display: flex;
+}
+
+.foto-izq {
+	width: 490px;
+	height: 350px;
+	background-image: url(../img/delivery.jpg);
+	border-radius: 5px;
+	position: relative;
+}
+
+.foto-izq p {
+	color: #FC200C;
+	font-weight: bold;
+	position: relative;
+	top: 20px;
+	left: 15px;
+	font-size: 24px;
+}
+
+.foto-izq p span {
+	color: white;
+	font-weight: bold;
+}
+
+.contenido-der {
+	width: 490px;
+	height: 350px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	position: relative;
+	padding: 20px;
+	flex-flow: row wrap;
+	
+}
+
+.contenido-der h2 {
+	font-size: 24px;
+	color: #FC200C;
+	text-align: center;
+	position: relative;
+	font-weight: bold;
+	top: 20px;
+	align-self: center;
+}
+
+.podio {
+	position: relative;
+	top: 60px;
+	align-self: flex-start;
+	width: 200px;
+	line-height: 30px;
+	padding-left: 30px;
+}
+
+.podio h3 {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	color: #222222;
+	margin-bottom: 20px;
+}
+
+.img-podio {
+	width: 92px;
+	height: 129px;
+	background-image: url(../img/PizzaFalling.jpg);
+	position: relative;
+	bottom: 100px;
+	left: 300px;
+}
+
+
+
+.footer {
+	Width: vw;
+	Height: 150px;
+	background-color: rgba(34, 34, 34, 1);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	flex-direction: row;
+	justify-content: space-between;
+	display: flex;
+	position: relative;
+	padding: 15px;
+}
+
+
+
+.footer ul li {
+	display: block;
+	color: rgba(243, 243, 243, 1);
+	margin: 7px;
+}
+
+.footer ul li a{
+	text-decoration: none;
+	color: rgba(243, 243, 243, 1);
+}
+
+.logo-footer {
+	width: 234px;
+	height: 80px;
+	background-image: url(../img/Logo.png);
+	align-self: flex-end;
+	position: relative;
+	bottom: 25px;
+	right: 10px;
+}
