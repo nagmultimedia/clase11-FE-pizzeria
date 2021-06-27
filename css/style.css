@@ -13,7 +13,6 @@ header {
 	flex-direction: row;
 	justify-content: space-between;
 	display: flex;
-	position: relative;
 	padding: 8px 15px;
 }
 
@@ -22,7 +21,6 @@ header {
 	height: 80px;
 	background-image: url(../img/Logo.png);
 	align-self: flex-start;
-	position: relative;
 }
 
 .menu {
@@ -58,7 +56,6 @@ header {
 	margin: 0px auto;
 	height: 350px;
 	width: 985px;
-	position: relative;
 	flex-direction: row;
 	justify-content: space-between;
 	display: flex;
@@ -69,7 +66,6 @@ header {
 	height: 350px;
 	background-image: url(../img/delivery.jpg);
 	border-radius: 5px;
-	position: relative;
 }
 
 .foto-izq p {
@@ -108,12 +104,12 @@ header {
 }
 
 .podio {
-	position: relative;
-	top: 60px;
+	position:relative;
+	top: 50px;
 	align-self: flex-start;
 	width: 200px;
 	line-height: 30px;
-	padding-left: 30px;
+	padding-left: 40px;
 }
 
 .podio h3 {
@@ -143,7 +139,6 @@ header {
 	flex-direction: row;
 	justify-content: space-between;
 	display: flex;
-	position: relative;
 	padding: 15px;
 }
 
@@ -165,7 +160,4 @@ header {
 	height: 80px;
 	background-image: url(../img/Logo.png);
 	align-self: flex-end;
-	position: relative;
-	bottom: 25px;
-	right: 10px;
 }
